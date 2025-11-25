@@ -1,6 +1,6 @@
 public class Mus extends Djur {
     
-    public Mus(double vikt, int energi){
+    public Mus(){
         super(1, 5000);
     }
 
@@ -9,7 +9,7 @@ public class Mus extends Djur {
         return "Piip";
     }
 
-    void klättra(){
+    static void klättra(){
         System.out.println("Musen klättrar");
     }
 

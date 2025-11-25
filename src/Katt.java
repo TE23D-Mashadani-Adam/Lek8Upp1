@@ -1,6 +1,6 @@
 public class Katt extends Djur{
 
-    public Katt(double vikt, int energi){
+    public Katt(){
         super(3, 10000);
     }
 
@@ -9,7 +9,7 @@ public class Katt extends Djur{
         return "Miauu";
     }
 
-    void leka(String sak){
+    static void leka(String sak){
         System.out.println("Katten leker med " + sak);
     }
 
