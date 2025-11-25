@@ -9,7 +9,7 @@ String Läte() {
     return "Voff";
 }
 
-static void spåra(String bite){
+void spåra(String bite){
     System.out.println("Spårar "+ bite);
 }
 

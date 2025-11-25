@@ -1,5 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
+        
+
         Djur[] djurfält = new Djur[5];
 
         djurfält[0] = new Hund();
@@ -10,15 +12,22 @@ public class App {
 
         for (Djur djur : djurfält) {
             if (djur instanceof Hund) {
-                Hund.spåra("Katt");
+                Hund h1 = (Hund)djur;
+                h1.spåra("Katt");
             }
             else if(djur instanceof Katt){
-                Katt.leka("Bomull");
-            }else{
-                Mus.klättra();
+                ((Katt)djur).leka("Bomull");
             }
+            else if (djur instanceof Mus){
+                ((Mus)djur).klättra();
+            }
+
         }
 
-        
     }
-}
+    }
+    
+
+        
+    
+

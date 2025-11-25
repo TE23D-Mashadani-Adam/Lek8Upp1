@@ -1,6 +1,6 @@
-public class Katt extends Djur{
+public class Katt extends Djur {
 
-    public Katt(){
+    public Katt() {
         super(3, 10000);
     }
 
@@ -9,10 +9,8 @@ public class Katt extends Djur{
         return "Miauu";
     }
 
-    static void leka(String sak){
+    void leka(String sak) {
         System.out.println("Katten leker med " + sak);
     }
-
-    
 
 }
