@@ -1,4 +1,4 @@
-public class Djur {
+abstract public class Djur {
     protected double vikt;
     protected int energi;
     protected Boolean lever;
@@ -21,9 +21,11 @@ public class Djur {
         energi -= (vikt * meter);
     }
 
-    String Läte(){
-        return "Djuret låter";
-    }
+    abstract String Läte();
+        
+        
+
+   
 
     
 }

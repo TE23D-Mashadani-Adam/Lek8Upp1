@@ -24,6 +24,17 @@ public class App {
 
         }
 
+      Hund hund = new Hund();
+
+      hund.sitt();
+      hund.apport();
+      hund.kom();
+
+      
+
+      
+     
+
     }
     }
     
